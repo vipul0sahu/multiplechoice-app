@@ -1,0 +1,55 @@
+*, *::after, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container__section {
+  border-bottom: 2px solid ;
+}
+
+.section__answer {
+  display: flex;
+  gap: 2em;
+  list-style-type: none;
+  padding: 0;
+}
+
+.section__answer-button {
+  padding: .25em 1em;
+  border-radius: .75em;
+  border: none;
+}
+
+/* .--correct {
+  background-color: green;
+}
+
+.--wrong {
+  background-color: red;
+} */
+
+.container__score {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.score__button {
+  padding: .5em .75em;
+  border-radius: .75em;
+  border: none;
+  font-weight: 700;
+}
